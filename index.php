@@ -74,7 +74,7 @@
 				<span class="">
 					<h5>Location: <?= $location?></h5>
 				</span>
-				<a href="deletecar.php?id=<?= $row['cls_cars_id'];?>" class="btn btn-outline-info btn-block">Delete the car</a>
+				<a href="deletecar.php?id=<?= $row['cls_cars_id'];?>" class="btn btn-outline-danger btn-block">Delete the car</a>
 			</div>
 		</div>
 	</div>	
